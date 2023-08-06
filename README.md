@@ -50,3 +50,9 @@ Ensuring connectivity between the client VM and the Domain Controller. I utilize
 Wrapping up the installation process but my created server is not fully established as a Domain Controller. 
 </p>
 <br />
+
+<p>
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Insert text here
