@@ -63,6 +63,12 @@ Ensure connectivity between the client VM and Domain Controller:
 </p>
 <p>
 Wrapping up the installation process but my created server is not fully established as a Domain Controller. 
+
+Install Active Directory:
+
+8. Login to DC-1 and install Active Directory Domain Services
+9. Promote as a DC: Setup a new forest as mydomain.com (can be anything, just remember what it is)
+10. Since we now have a functioning DC we need to restart and then log back into DC-1 as user: mydomain.com\labuser
 </p>
 <br />
 
