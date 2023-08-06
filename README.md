@@ -31,7 +31,7 @@ This tutorial outlines the implementation of Active Directory within Azure Virtu
 <img src="https://i.imgur.com/NORz5eA.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Inside of Microsoft Azure I create a Virtual Machine (VM) using Windows Server 2022.
+Inside of Microsoft Azure I create a Virtual Machine (VM) using Windows Server 2022. I will be duplicating this process to create another VM (Windows 10) named Client-1.
 </p>
 <br />
 
