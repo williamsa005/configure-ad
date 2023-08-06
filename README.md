@@ -32,6 +32,13 @@ This quick guide outlines the implementation of Active Directory within Azure Vi
 </p>
 <p>
 Inside of Microsoft Azure I create a Virtual Machine (VM) using Windows Server 2022. I will be duplicating this process to create another VM (Windows 10) named Client-1.
+  
+Setup resources in Azure:
+1. Create the Domain Controller VM (Windows Server 2022) named “DC-1". Note: the Resource Group and Virtual Network (Vnet) will be created at this time.
+2. DO NOT FORGET THIS STEP: Set Domain Controller’s NIC Private IP address to be static. 
+3. Create the Client VM (Windows 10) named “Client-1”. Be sure to use the same Resource Group and Vnet that was initially created in Step 1.
+4. Ensure both VMs are in the same Vnet (you can check the topology within Network Watcher) 
+
 </p>
 <br />
 
@@ -40,6 +47,14 @@ Inside of Microsoft Azure I create a Virtual Machine (VM) using Windows Server 2
 </p>
 <p>
 Ensuring connectivity between the client VM and the Domain Controller. I utilized a perpetual ping along with the disabling of firewall restrictions.
+
+Ensure connectivity between the client VM and Domain Controller: 
+
+5. Login to Client-1 with Remote Desktop and ping DC-1’s private IP address with ping -t <ip address> (perpetual ping)
+6. Login to the Domain Controller and enable ICMPv4 in on the local windows Firewall
+7. Check back at Client-1 to see the ping succeed
+
+
 </p>
 <br />
 
