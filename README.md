@@ -3,7 +3,7 @@
 </p>
 
 <h1>Active Directory Deployed in the Cloud (Azure)</h1>
-This tutorial outlines the implementation of Active Directory within Azure Virtual Machines.<br />
+This quick guide outlines the implementation of Active Directory within Azure Virtual Machines.<br />
 
 
 
