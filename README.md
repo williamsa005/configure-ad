@@ -12,7 +12,7 @@ This tutorial outlines the implementation of Active Directory within Azure Virtu
 - Microsoft Azure (Virtual Machines/Compute)
 - Remote Desktop
 - Active Directory Domain Services
-- PowerShell
+
 
 <h2>Operating Systems Used </h2>
 
@@ -52,7 +52,7 @@ Wrapping up the installation process but my created server is not fully establis
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/AeHLg1y.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Insert text here
+Active Directory has successfully been installed and is ready to be customized for a wide range of tasks. 
